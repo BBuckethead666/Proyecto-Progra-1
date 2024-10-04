@@ -12,6 +12,7 @@ public class SistemaMembresiaGimnasio {
 
     public static void main(String[] args) {
         JOptionPane.showMessageDialog(null, "Bienvenido al sistema de membresías del gimnasio.");
+        System.out.println("hola");
 
         AdministradorMembresia administradorMembresia = new AdministradorMembresia();
 
@@ -226,4 +227,5 @@ public class SistemaMembresiaGimnasio {
     public static double getCuotaMensual() {
         return CuotaMensual;
     }
+    
 }
